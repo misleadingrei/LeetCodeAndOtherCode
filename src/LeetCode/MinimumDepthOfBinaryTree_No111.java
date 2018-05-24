@@ -8,7 +8,7 @@ package LeetCode;
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class MinimumDepthOfBinaryTree {
+public class MinimumDepthOfBinaryTree_No111 {
     public int run(TreeNode root) {
         if(root==null)return 0;
         return countDepth(root);
